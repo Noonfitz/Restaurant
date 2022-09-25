@@ -1,0 +1,149 @@
+nav{
+    
+    font-family: Georgia;    
+    font-size: 18px;
+
+    margin-left: 1400px;
+    
+}
+
+.navBar{
+    padding-top:30px;
+    background-color: #ede7b1;
+    padding-bottom: 30px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.headSec{
+    padding-bottom: 5%;
+    padding-top: 6px;
+}
+
+h1{
+    font-family: Georgia;  
+    font-weight: bold;  
+    margin-top: 80px;
+    text-align: center;
+}
+h3{
+    font-family: Georgia;  
+    font-weight: bold;  
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.adVer-photo{
+padding-left:170px;
+}
+p{
+    font-family:  Helvetica;
+    font-size: 18px;
+}
+
+h2{
+    font-family:  Helvetica;
+    text-align: center;
+    margin-top: 60px;
+
+
+}
+
+hr{
+    border-style: dotted none none none;
+    width:10%;
+    color:#ede7b1;
+    border-width:10px;
+
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    
+}
+
+img{
+    margin-left: 180px;
+}
+p{
+    font-family:  Helvetica;
+    text-align: center;
+}
+
+.menu-order{
+    padding-bottom: 40%;
+}
+
+.forCustomer{
+    background-color: #ede7b1;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 5%;
+}
+
+input[type=text] {
+    width: 20%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+  input[type=email] {
+    width: 20%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  select{
+    width: 20%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button{
+    width: 10%;
+    background-color: #fbb02d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:#c7bc53;
+  }
+
+
+footer{
+    background-image: url(https://cdn2.springlane.de/media/image/58/3d/2e/Der_ultimative_Burger-Guide_Featured_640x640.jpg);
+    height: 350px;
+    text-align: center;
+    opacity: 0.75;
+   
+   
+}
+
+.footer-link{
+  font-size: 20px;
+  color:white;
+  text-decoration: none;
+ 
+}
