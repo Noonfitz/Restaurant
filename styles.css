@@ -1,22 +1,20 @@
-nav{
-    
-    font-family: Georgia;    
-    font-size: 18px;
-
-    margin-left: 1400px;
-    
+.navbar{
+     overflow: hidden;
 }
 
-.navBar{
-    padding-top:30px;
-    background-color: #ede7b1;
-    padding-bottom: 30px;
-}
-a{
+.navBar a {
+    float:right;
     color: black;
+    text-align: center;
+    padding:14px 16px;
     text-decoration: none;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 18px;
+    font-family: Georgia;   
+
+}
+
+.navBar a:hover{
+    background-color: #ede7b1;
 
 }
 .headSec{
@@ -38,7 +36,9 @@ h3{
 }
 
 .adVer-photo{
-padding-left:170px;
+    margin-left: 15%;
+    width: 70%;
+    border-radius: 15px;
 }
 p{
     font-family:  Helvetica;
