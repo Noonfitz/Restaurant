@@ -40,10 +40,11 @@ h3{
     width: 70%;
     border-radius: 15px;
 }
-p{
-    font-family:  Helvetica;
-    font-size: 18px;
+
+div.column {
+    text-align: center;
 }
+
 
 h2{
     font-family:  Helvetica;
@@ -65,18 +66,24 @@ hr{
     float: left;
     width: 33.33%;
     
+    
+}
+.row::after{
+    content:"";
+    clear: both;
+    display: table;
 }
 
-img{
-    margin-left: 180px;
+@media screen and (max-width: 840px) {
+.column{
+    width:100%;
 }
-p{
-    font-family:  Helvetica;
-    text-align: center;
-}
+} 
+
+
 
 .menu-order{
-    padding-bottom: 40%;
+    padding-bottom: 50px;
 }
 
 .forCustomer{
